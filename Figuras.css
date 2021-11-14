@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    background-color: rgb(145, 19, 19);
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.DiseñoFondo{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(185, 134, 134);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    border-bottom-color: black;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+}
+.TCuadrado{
+    color: rgb(145, 19, 19);;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TextoEscribe{
+    font-size: 30px;
+    text-align: center;
+    width: 1209px;
+    background-color: rgb(145, 19, 19);
+    margin-left: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.TextoEscribe2{
+    font-size: 20px;
+    width: 1110px;
+    margin-left: 70px;
+}
+
+.margen{
+    margin-left: 566px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Botones{
+    width: 1180px;
+    margin-left: 70px;
+}
+
+.botones2{
+    border-style:groove;
+    margin-left: 475px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color: rgb(145, 19, 19);
+    border-color: white;
+    border-width: 3px;
+    color: white 
+}
+
+.botones3{
+    border-style:groove;
+    font-size: 20px;
+    margin-left: 35px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(145, 19, 19);
+    border-color: white;
+    border-width: 3px;
+    color: white;
+}
+
+.BordeTriangulo{
+    background: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-left-width: 70px;
+    border-right-width: 70px ;
+    border-bottom-style: none;
+}
+
+.TTriangulo{
+    text-align: center;
+    color: rgb(145, 19, 19);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.EstiloTriangulo{
+    font-size: 25px;
+    width: 1209px;
+    background-color: rgb(145, 19, 19);
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.margent1{
+    margin-left: 400px;
+    color: white;
+    margin-top: 20px;
+}
+
+.margent2{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.margent3{
+    margin-left: 13px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.margent33{
+    margin-left: 24px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.BotonTriangulo{
+    width: 1180px;
+   
+    margin-left: 70px;
+}
+
+.BotonTri{
+    border-style:groove;
+    margin-left: 600px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color: rgb(145, 19, 19);
+    border-color: white;
+    border-width: 3px;
+    color: white;
+}
+
+.margent4{
+    margin-left: 32px;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+.botones5{
+    border-style:groove;
+    margin-left: 370px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color: rgb(145, 19, 19);
+    border-color: white;
+    border-width: 3px;
+    color: white;
+}
+
+.botones6{
+    border-style:groove;
+    margin-left: 20px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color: rgb(145, 19, 19);
+    border-color: white;
+    border-width: 3px;
+    color: white;
+}
+
+.botones7{
+    border-style:groove;
+    margin-left: 20px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color: rgb(145, 19, 19);
+    border-color: white;
+    border-width: 3px;
+    color: white;
+}
+
+footer{
+    font-size: 15px;
+    background-color:  rgb(145, 19, 19);
+    text-align: center;
+    color: white;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Regresar{
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(145, 19, 19);
+    border-color: white;
+    border-style: solid;
+    color: white;
+    margin-left: 703px;
+    margin-top: 20px;
+}

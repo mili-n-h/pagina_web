@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda</title>
+    <link rel="stylesheet" href="Moda.css">
+</head>
+<body>
+    <header>
+        <p class="Titulo">Calculos para Moda, Media y Mediana</p>
+    </header>
+    <div class="Borde">
+        <h2 class="TCuadrado"> Calculo de Moda </h2>
+    </div>      
+    <section>
+        <form action="">
+            <div class="TextoEscribe">
+                <br>
+                <label for="InputDatos">Ingresa los numeros. Nota(no olvides poner coma).</label>
+            </div>          
+            <div class="TextoEscribe2">
+                <input id="InputDatos" type="text" class="margen">
+            </div>     
+            <div class="Botones">
+                <button type="button" onclick="ClickCalcularModa()" class="botones2">
+                    Calcular la Moda
+                </button>
+            </div>
+            <div class="TextoEscribe4">
+                <p id="Moda">Resultado</p>
+                <br>
+            </div>          
+        </form>
+    </section>
+        <div class="Borde">
+            <h1 class="TCuadrado"> Calculo de la Mediana</h1>
+        </div>
+        <section>
+            <form action="">
+                <div class="TextoEscribe">
+                    <br>
+                    <label for="InputDatos2">Ingresa los numeros. Nota(no olvides poner coma).</label>
+                </div>                   
+                <div class="TextoEscribe2">
+                    <input id="InputDatos2" type="text" class="margen">
+                </div>    
+                <div class="Botones">
+                    <button type="button" onclick="ClickCalcularMediana()" class="botones2">
+                        Calcular la Mediana
+                    </button>
+                </div>          
+                <div class="TextoEscribe4">
+                    <p id="ListOrdenada">Lista Ordenada</p> <br>
+                    <p id="Mediana">Mediana</p>
+                    <br>
+                </div>
+            </form>
+        </section>
+        <div class="Borde">
+            <h1 class="TCuadrado"> Calculo de la Media</h1>
+        </div>      
+        <section> 
+            <section>
+                <form action="">
+                    <div class="TextoEscribe">
+                        <br>
+                        <label for="InputDatos">Ingresa los numeros. Nota(no olvides poner coma).</label>
+                    </div>
+                        
+                    <div class="TextoEscribe2">
+                        <input id="InputDato" type="text" class="margen">
+                    </div>
+                        
+                    <div class="Botones">
+                        <button type="button" onclick="Promedio()" class="botones2">
+                            Calcular 
+                        </button>
+                    </div>     
+                    <div class="TextoEscribe4">
+                        <p id="promedio_resul">Resultado</p>
+                    </div>
+                </form>
+            <div>
+                <a href="Menu.html" > <input type="button" value="Regresar" class="Regresar"></a>
+            </div>
+        </section>
+    <script src="Moda.js"></script>
+    <Script src="Mediana.js"></Script>
+</body>
+</html>

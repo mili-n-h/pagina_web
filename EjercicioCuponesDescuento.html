@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EjercicioCupones.css">
+    <title>Calculos JS</title>
+</head>
+<body>
+    <header>
+        <div class="Titulo">
+            <p>Calculadora de Descuentos</p>
+        </div>
+    </header>
+    <section>
+        <div class="Subtitulo">
+            <br>
+            <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+            <br>
+        </div>
+        <form action="">
+            <div class="DiseñoFondo">
+                <br>
+                <label for="InputPrice">Escribe el precio de tu Producto: </label>
+            </div>
+            <div class="DiseñoFondo">
+                <input id="InputPrice" type="number" class="margen1">
+            </div>
+            <div class="DiseñoFondo">
+                <label for="InputDescuento" >Escribe el descuento de tu Producto: </label>
+            </div>
+            <div class="DiseñoFondo">
+                <input id="InputDescuento" type="number" class="margen1">
+            </div>
+            <div class="DiseñoFondo">
+                <label for="InputCupon">Escribe el cupon de descuento para tu Producto:(Oferton,Promo,Descuenton) </label>
+            </div>
+            <div class="DiseñoFondo">
+                <input id="InputCupon" type="String" class="margen1">
+            </div>
+            <div class="DiseñoFondo">
+                <button type="button" onclick="onClickButtonPriceDiscount()" class="boton">
+                    Precio con descuento
+                </button >
+            </div>
+            <div class="DiseñoFondo">
+                <p id="ResultPrice" class="Resultado"></p> 
+                <br>
+            </div>
+        </form>
+        <div>
+            <a href="Menu.html" > <input type="button" value="Regresar" class="Regresar"></a>
+        </div>  
+    </section>
+    <script src="/EjercicioCuponesDescuento.js"></script>
+</body>
+</html>

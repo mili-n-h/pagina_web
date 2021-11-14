@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo JS</title>
+    <link rel="stylesheet" href="Figuras.css">
+</head>
+
+<body>
+    <header>
+        <h1>Figuras Geometricas</h1>
+    </header>
+        <section>
+            <div class="Borde">
+                <h2 class="TCuadrado">Calculos Cuadrado</h2>
+            </div>
+            <form action="">
+                <span>
+                    <div class="TextoEscribe">
+                        <br>
+                        <label for="inputCuadrado">
+                           ¿Cuanto mide cada lado?
+                        </label>
+                    </div>
+
+                    <div class="TextoEscribe2">
+                        <input type="number" id="inputCuadrado" class="margen">
+                    </div>
+                </span>
+
+                <div class="Botones">
+                    <button type="button" onclick="calcularPerimetroCuadrado()" class="botones2"> Calcular
+                        Perimetro</button>
+                    <button type="button" onclick="calcularAreaCuadrado()" class="botones3"> Calcular el Area</button>
+                </div>
+                <div class="DiseñoFondo">
+                    <p id="CuaPerArea" class="Resultado"></p> 
+                    <br>
+                </div>
+            </form>
+        </section>
+
+
+
+        <section>
+            <div class="BordeTriangulo">
+                <h2 class="TTriangulo">Calculos Triangulo</h2>
+            </div>
+
+            <form>
+                <span>
+                    <div class="EstiloTriangulo">
+                        <label for="LadoTriangulo" class="margent1">
+                            Escribe el valor del lado 1
+                        </label>
+                        <input type="number" id="inputLadoTriangulo" class="margent2">
+                    </div>
+
+                    <div class="EstiloTriangulo">
+                        <label for="Lado2Triangulo" class="margent1">
+                            Escribe el valor del lado 2
+                        </label>
+                        <input type="number" id="inputLado2Triangulo" class="margent2">
+                    </div>
+
+                    <div class="EstiloTriangulo">
+                        <label for="BaseTriangulo" class="margent1">
+                            Escribe el valor de la base
+                        </label>
+                        <input type="number" id="inputBase3Triangulo" class="margent3">
+                    </div>
+                </span>
+
+                <div class="BotonTriangulo">
+                    <button type="button" onclick="calcularPerimetroTriangulo()" class="BotonTri">Calcular
+                        Perimetro</button>
+                </div>
+                <div class="DiseñoFondo">
+                    <p id="pTriangulo" class="Resultado"></p>  
+                    <br>
+                </div>
+            </form>
+        </section>
+        <section>
+            <div class="BordeTriangulo">
+                <h2 class="TTriangulo">Area del triangulo</h2>
+            </div>
+
+            <form>
+                <span>
+                    <div class="EstiloTriangulo">
+                        <label for="BaseTriangulo" class="margent1">
+                            Escribe la base
+                        </label>
+                        <input type="number" id="inputBaseTriangulo" class="margent4">
+                    </div>
+
+                </span>
+
+                <span>
+                    <div class="EstiloTriangulo">
+                        <label for="alturaTriangulo" class="margent1">
+                            Escribe la altura
+                        </label>
+                        <input type="number" id="inputAlturaTriangulo" class="margent33">
+                    </div>
+                </span>
+                <div class="BotonTriangulo">
+                    <button type="button" onclick="calcularAreaTriangulo()" class="BotonTri">Calcular el area</button>
+                </div>
+                <div class="DiseñoFondo"> 
+                    <p id="aTriangulo" class="Resultado"></p> 
+                    <br>
+                </div>
+            </form>
+        </section>
+        <section>
+            <div class="BordeTriangulo">
+                <h2 class="TTriangulo">Calculos del Circulo</h2>
+            </div>
+            <form>
+                <span>
+                    <div class="TextoEscribe">
+                        <br>
+                        <label for="inputCirculo">
+                            Escribe el radio del circulo
+                        </label>
+                    </div>
+
+                    <div class="TextoEscribe2">
+                        <input type="number" id="inputRadioCirculo" class="margen">
+                    </div>
+                </span>
+                <div class="Botones">
+                    <button type="button" onclick="calcularDiametroCirculo()" class="botones5"> Calcular
+                        Diametro</button>
+                    <button type="button" onclick="calcularPerimetroCirculo()" class="botones6"> Calcular
+                        Perimetro</button>
+                    <button type="button" onclick="calcularAreaCirculo()" class="botones7"> Calcular Area</button>
+                </div>
+                <div class="DiseñoFondo">
+                    <p id="dpaCirculo" class="Resultado"></p> 
+                    <br>
+                </div>
+            </form>
+            <div>
+                <a href="Menu.html"> <input type="button" value="Regresar" class="Regresar"></a>
+            </div>
+        </section>
+        <script src="Figuras.js"></script>
+</body>
+</html>

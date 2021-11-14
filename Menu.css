@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(247, 243, 218);
+    height: auto;
+    width: auto;
+}
+.Figuras:hover{
+    background:salmon;
+}
+.Porcentajes:hover{
+    background:salmon;
+}
+.Moda:hover{
+    background:salmon;
+}
+header{
+    background-color: rgb(145, 19, 19);
+    
+}
+
+.Titulo{
+    text-align: center;
+    font-size: 65px;
+    color: white;
+}
+
+main .Figuras{
+    width: 250px;
+    height: 250px;
+    background: url(/img/figuras2.png);
+    background-size: 95%, 90%;
+    background-position: center;
+    border-color:  rgb(145, 19, 19);
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    border-radius: 20px;
+    margin-top: 120px;
+    margin-left: 40px;
+    border-width: 8px;
+    border-style:inset;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+main .Porcentajes{
+    width: 250px;
+    height: 250px;
+    background: url(/img/Porcentaje2.png);
+    background-size: 95%, 90%;
+    background-position: center;
+    border-color:  rgb(145, 19, 19);
+    border-radius: 20px;
+    margin-left: 40px;
+    border-width: 8px;
+    border-style:inset;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(0, 0, 0);
+}
+
+main .Moda{
+    width: 250px;
+    height: 250px;
+    background: url(/img/estadistica2.png);
+    background-size: 95%, 90%;
+    background-position: center;
+    border-color:  rgb(145, 19, 19);
+    border-radius: 20px;
+    margin-left: 40px;
+    border-width: 8px;
+    border-style:inset;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(0, 0, 0);
+}
+@media(min-width: 500px){
+ .Container{
+    width: 900px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+}
